@@ -28,8 +28,21 @@ var change = function(){
 
 
 	//print message to screen
-	$('#d').html('Your change is ' + dollar + ' dollar(s)')
-	$('#c').html(' and ' + quarter + dime + nickel + penny) 
+	$('#dAMT').html(dollar + ' dollar(s)');
+	$('.qAMT').html(quarter + ' quarter(s)');
+	$('.dAMT').html(dime + ' dime(s)');
+	$('.nAMT').html(nickel + ' nickel(s)');
+	$('.pAMT').html(penny + ' penny(ies)'); 
+	
+	if(answer < 0 ) {
+		alert('You owe me money!');
+		$('#dAMT').html(' ');
+		$('.cAMT').html(' ');
+		$('.dAMT').html(' ');
+		$('.nAMT').html(' ');
+		$('.pAMT').html(' ');
+
+	}
 } 
 
 

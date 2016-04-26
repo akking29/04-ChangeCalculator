@@ -88,12 +88,11 @@
 }
 #d {
 
-	width: 2000px;
-	height: 300px;
+	width: 459px;
+	height: 194px;
 	border-color: #999999;
 	font-family: Century Gothic, sans-serif;
-	font-size: 20px;
-	background-image: url("images/d.jpg");
+	font-size: 100px;
 
 }
 #c {
@@ -105,4 +104,3 @@
 	font-size: 20px;
 
 }
-
